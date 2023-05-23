@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btnChack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                PgyUpdateVersion.checkVersionUpdate("23ee37c03476e6cf3b9c723c42b56c41","a95633b2b7f1a59f183f44326cfacad6","","8.0",new PgyCheckoutCallBack() {
+                PgyUpdateVersion.checkVersionUpdate("23ee37c03476e6cf3b9c723c42b56c41","95cba2a504c27fbd6d94c47117056f12","","1.0",new PgyCheckoutCallBack() {
 
                     @Override
                     public void onNewVersionExist(PgyCheckSoftModel model) {
